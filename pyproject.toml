@@ -7,7 +7,7 @@ name = "ue5_asset_gen"
 version = "0.1.0"
 description = "Using Large Landuage Models generate 3D assest that can be imported into the Unreal Engine"
 authors = [
-    "rajiv Mandya Nagaraju"
+    "Rajiv Mandya Nagaraju"
 ]
 
 [tool.poetry.dependencies]
