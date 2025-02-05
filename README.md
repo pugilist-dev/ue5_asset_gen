@@ -28,3 +28,13 @@ Generate 3D objects
 make infer
 ```
 ### Project organization
+```
+├── Makefile                <- `make` aliases; `make install`, `make data`, etc.
+├── README.md               <- You really should read this
+├── pyproject.toml          <- Project configuration file with package metadata, 
+│                              configurations, and dependencies.
+├── data                    <- Directory for storing data
+│ ├── interim                   <- Intermediate data that has been transformed
+│ ├── processed                 <- The final, canonical data sets for modeling
+│ └── raw                       <- The original, immutable data dump
+└── src                         <- inference pipeline source code, including supportive modules
