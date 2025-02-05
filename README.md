@@ -1,5 +1,6 @@
 # Unreal Engine 5 asset generator using LLM
 ## Getting Started
+This is just a inference repo using the model trained in the paper: [Shap-E: Generating Conditional 3D Implicit Functions](https://arxiv.org/abs/2305.02463).
 Clone this repository
 
 ```commandline
