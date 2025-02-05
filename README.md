@@ -3,7 +3,7 @@
 Clone this repository
 
 ```commandline
-git clone
+git clone https://github.com/pugilist-dev/ue5_asset_gen.git
 ```
 ### commands
 Enter the `ue5_asset_gen` directory. Use the Makefile to run the pipeline. This project uses poetry to handle the environment. Python version is 3.12 or above.
