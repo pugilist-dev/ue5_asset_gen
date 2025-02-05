@@ -1,11 +1,11 @@
-#Unreal Engine 5 asset generator using LLM
+# Unreal Engine 5 asset generator using LLM
 ## Getting Started
 Clone this repository
 
 ```commandline
 git clone
 ```
-###commands
+### commands
 Enter the `ue5_asset_gen` directory. Use the Makefile to run the pipeline. This project uses poetry to handle the environment. Python version is 3.12 or above.
 change into the cloned directory
 ```commandline
