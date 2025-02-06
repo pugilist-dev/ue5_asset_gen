@@ -31,6 +31,7 @@ update-clip:
 .PHONY:	remove-shap-e
 remove-shap-e:
 	rm	-rf	shap-e
+	rm	-rf	shap_e_model_cache
 
 # Update dependencies
 .PHONY:	update
@@ -45,3 +46,6 @@ run:
 .PHONY:	view
 view:
 	poetry	run	python	-m	src.view
+
+.PHONY:	all
+all:	install	update-clip	run

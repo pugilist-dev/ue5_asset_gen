@@ -23,7 +23,7 @@ class Inference:
                    clip_denoised: bool = True,
                    use_fp16: bool = True,
                    use_karras: bool = False,
-                   karras_steps: int = 64,
+                   karras_steps: int = 128,
                    sigma_min: float = 1e-3,
                    sigma_max: float= 160,
                    s_churn=0,

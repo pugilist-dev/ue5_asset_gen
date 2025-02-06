@@ -37,5 +37,5 @@ FIGURES_DIR = REPORTS_DIR / "figures"
 
 render_config = {
     'render_mode': 'nerf',
-    'size': 64
+    'size': 128
 }
