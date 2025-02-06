@@ -28,6 +28,10 @@ Generate 3D objects
 ```commandline
 make infer
 ```
+To skip running individual steps and run all at once
+```commandline
+make all
+```
 ### Project organization
 ```
 ├── Makefile                <- `make` aliases; `make install`, `make data`, etc.
